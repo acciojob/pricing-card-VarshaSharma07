@@ -1,1 +1,49 @@
 /*  your css code here. If applicable */
+body, h1, p, button, img{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.card {
+	width: 300px;
+	padding: 20px;
+	background-color: #f5f5f5;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.product-image {
+	width: 200px;
+	margin: 0 auto 10px;
+}
+
+.title{
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.pricing {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.description {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.buy-now {
+	color: #fff;
+	padding: 10px 20px;
+	background-color: darkcyan;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.buy-now:hover{
+	background-color: #0056b3;
+}
